@@ -33,7 +33,6 @@ export default class ERoute extends Component {
                     </Route>
                 </Router>
             </Provider>
-
         )
     }
 }
