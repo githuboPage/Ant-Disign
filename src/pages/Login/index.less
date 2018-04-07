@@ -1,0 +1,52 @@
+//login
+.login-page{
+  .login-content-wrap{
+    min-height:550px;
+    //height:calc(~'100vh - 100px');
+    height:calc(~'100vh');
+    background:url(http://p4pnhkusl.bkt.clouddn.com/banner.jpg) no-repeat center;
+    background-size:cover;
+    .login-content{
+      position:relative;
+      top:50%;
+      display:flex;
+      max-width:960px;
+      margin:0 auto;
+      padding:0 20px;
+      transform:translateY(-50%);
+      align-items:center;
+      justify-content: center;
+      // <br/>
+      .word{
+        flex:7;
+        line-height:1.4;
+        color:#fff;
+        font-size:64px;
+        font-weight:bold;
+      }
+      .login-box{
+        position:relative;
+        flex:4;
+        height:370px;
+        padding:40px 30px 0 30px;
+        background:#fff;
+        overflow:hidden;
+        // 欢迎你
+        .title{
+          line-height:1;
+          margin-bottom:50px;
+          font-size:40px;
+          color:#333;
+          font-weight:bold;
+          text-align:center;
+        }
+        // login组件
+      }
+    }
+  }
+  //登录按钮
+  .login-form-button{
+    width:100%;
+    margin-top:15px;
+  }
+}
